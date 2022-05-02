@@ -1,0 +1,44 @@
+#Project Information
+site_name: MKDocs | Documentation Template
+site_description: Site Description
+site_author: Site Author
+
+#Repository
+#repo_name: Repository Name 
+#repo_url: Repository URL
+
+# Copyright
+#copyright: 'Copyright &copy;'
+
+#Theme Style
+theme:
+    name: material
+    language: pt
+    logo: assets/logo.png
+
+#Options
+    palette:
+        scheme: default
+        primary: indigo
+        accent: indigo
+        
+    features:
+        - navigation.tabs
+        
+# Extensions
+markdown_extensions:
+    - admonition
+    - codehilite:
+        guess_lang: false
+    - toc:
+        permalink: true
+
+#Pages
+nav:
+    - Home: index.md
+    - Menu 1: 
+        - Subject 1: menu1/file1.md
+        - Subject 2: menu1/file2.md
+    - Menu 2:
+        - Subject 1: menu2/file1.md
+ 
